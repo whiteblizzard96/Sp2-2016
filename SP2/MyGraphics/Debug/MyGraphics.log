@@ -1,0 +1,53 @@
+﻿Build started 15/2/2016 4:42:03 PM.
+     1>Project "C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\MyGraphics\MyGraphics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\\glew\include" /I"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\\glfw\include" /I"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\\Common\Source" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Assignment3.cpp
+         Assignment3.cpp
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.h(208): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(287): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(594): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(716): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(717): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(847): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(906): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(967): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1028): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1032): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1036): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1040): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1262): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1263): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1264): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1266): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1267): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wm\desktop\assignment3 (2)\assignment3\mygraphics\source\assignment3.cpp(1268): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\Debug\MyGraphics.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\\glew\lib" /LIBPATH:"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\\glfw\lib-msvc120" /LIBPATH:"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\Debug" glew32.lib glfw3.lib opengl32.lib winmm.lib Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\Debug\MyGraphics.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\Debug\MyGraphics.lib" /MACHINE:X86 Debug\Assignment2.obj
+         Debug\Assignment3.obj
+         Debug\Camera3.obj
+         Debug\Lab5b.obj
+         Debug\Application.obj
+         Debug\Camera.obj
+         Debug\Camera2.obj
+         Debug\LoadOBJ.obj
+         Debug\LoadTGA.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MeshBuilder.obj
+         Debug\Scene1.obj
+         Debug\Scene3.obj
+         Debug\SceneLight.obj
+         Debug\SceneLight2.obj
+         Debug\SceneModel.obj
+         Debug\SceneSkybox.obj
+         Debug\SceneText.obj
+         Debug\SceneTexture.obj
+         Debug\shader.obj
+         Debug\Scene2.obj
+         Debug\Utility.obj
+         MyGraphics.vcxproj -> C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\Debug\MyGraphics.exe
+     1>Done Building Project "C:\Users\WM\Desktop\Assignment3 (2)\Assignment3\MyGraphics\MyGraphics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
